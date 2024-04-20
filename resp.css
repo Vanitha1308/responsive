@@ -1,0 +1,49 @@
+.box{
+    width:100%;
+    height:300px;
+    background-color: black;  
+}
+.ox img{
+ height: 275px;
+ width:22%;
+ background-color: aqua;
+ float: left;
+ margin-left: 40px;
+ margin-top: 10px;
+}
+@media only screen and (max-width:1352px){
+
+.box{
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    
+    
+}
+.ox img{
+    width: 300px;
+    height: 100px;
+
+}
+
+
+
+}
+.eng h1{
+font-size: 80px;
+
+}
+@media only screen and (max-width:991px){
+    .eng{
+        width: 100%;
+        
+    }
+     .eng h1{
+        font-size: 50px;
+        color: aqua;
+    }
+.eng p{
+    line-height: 15px;
+}
+}
